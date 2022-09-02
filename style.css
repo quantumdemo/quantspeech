@@ -1,0 +1,280 @@
+/*  root variables */
+:root {
+    --color-primary:#7380ec;
+	--color-danger:#ff7782;
+    --color-red:#ff0000;
+	--color-success:#41f1b6;
+	--color-warning:#ffbb55;
+	--color-white:#fff;
+	--color-info-dark:#7d8da1;
+	--color-info-light:#dce1eb;
+	--color-dark:#363949;
+	--color-light:rgba(132, 139, 200, 0.18);
+	--color-primary-variant:#111e88;
+	--color-dark-variant:#677483;
+    --color-black: black;
+	--color-background:#f6f6f9;
+	--card-border-radius:2rem;
+	--border-radius-1:0.4rem;
+	--border-radius-2:0.8rem;
+	--border-radius-3:1.2rem;
+	--card-padding:1,8rem;
+	--padding-1:1.2rem;
+   /* --box-shadow:0.2rem 3rem var(--color-light);*/
+	--box-shadow:  0 10px 10px black;
+}
+
+
+
+@media (max-width: 760px) {
+    #nav-btn {
+        display: block;
+        margin-top: 0.5rem;
+        height: 10%;
+        width: 15%;
+    }
+
+    #jokes-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 22rem;
+    }
+
+    .quote-contained {
+        margin-left: auto;
+        margin-right: auto;
+        width: 22rem;
+    }
+
+    .showcase {
+        margin-left: auto;
+        margin-right: auto;
+        width: 22rem;
+    }
+
+    .question {
+        margin-left: auto;
+        margin-right: auto;
+        width: 22rem;
+    }
+
+}
+
+#nav {
+    background-image: url('main-bg.jpg');
+}
+
+#nav-logo {
+    width: 15%;
+}
+
+#logo-text {
+    color: whitesmoke;
+}
+
+#logo_text {
+    color: green;
+}
+
+#paragraph {
+    font-weight: 100rem;
+    font-size: 25px;
+}
+/*     jokes generator  */
+#jokes-content {
+    box-shadow: 0 0.5rem 0.5rem blue;
+}
+
+#jokes-content:hover {
+    box-shadow: none;
+}
+
+.joke-generator {
+    margin-top: 60px;
+    width: 22rem;
+}
+
+#joke-head {
+    text-align: center;
+    font-weight: 50px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: var(--color-black);
+}
+
+#the-joke-type {
+  color: var(--color-black);
+}
+
+#the-joke-setup {
+    color: var(--color-black);
+  }
+
+  #the-joke-punchline {
+    color: var(--color-black);
+  }
+
+  .container-joke {
+    border: 2.5px solid blue;
+    padding: 1px;
+  }
+
+  .butns-joke {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+}
+
+#the-copy-joke {
+    cursor: pointer;
+    background-color: blue;
+    color: var(--color-black);
+    padding: 3px;
+    border: black 2px solid;
+    color: white;
+}
+
+#the-volume-joke {
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    color: var(--color-black);
+    padding: 3px;
+    border: black 2px solid;
+    color: white;
+}
+
+
+#btn-quote-joke {
+    color: var(--color-black);
+    background-color: blue;
+    padding: 2px;
+    cursor: pointer;
+    border: 1.5px solid var(--color-info-light);
+    border: black 2px solid;
+    color: white;
+}
+
+.container-joke span {
+    font-weight: 10px;
+    font-size: large;
+}
+
+/*     quote grnerator  */
+
+#flex {
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+}
+
+.quote-contained {
+    box-shadow: 0 0.5rem 0.5rem blue;
+}
+
+.quote-contained:hover {
+    box-shadow: none;
+}
+
+.qgenerator {
+    text-align: center;
+    margin-top: 50px;
+    width: 22rem;
+}
+
+.qgenerator .heading {
+    color: var(--color-dark);
+}
+
+.the-text {
+    color: var(--color-info-dark);
+}
+/* icon */
+ #icon1 {
+    margin: 6px 10px 0 0;
+    padding-top: 1px;
+    padding-bottom: 2rem;
+    padding-right: 17rem;
+    display: none;
+}
+
+#icon2 {
+    margin: 5px 0 3px 22rem;
+    display: flex;
+    align-self: flex-end;
+    padding-left: 22rem;
+    /*padding-left: 0.5rem;
+    padding-bottom: -26rem;*/
+    display: none;
+    transform: rotate(180deg);
+}
+
+/*  heading */
+.heading {
+    text-align: center;
+    font-weight: 50px;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: var(--color-black);
+}
+
+.the-texts {
+    color: var(--color-info-dark);
+    text-align: center;
+}
+
+#thequote {
+    font-size: 12px;
+    color: var(--color-black);
+    padding-left: 2rem;
+    margin-bottom: auto;
+}
+
+
+/*   author text */
+.auth {
+    padding-left: 18rem;
+    padding-top: 40px;
+}
+
+#theauthor {
+    font-size: 13px;
+    color: var(--color-black);
+}
+
+.butns {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 22rem;
+}
+
+#the-copy {
+    cursor: pointer;
+    background-color: blue;
+    color: var(--color-black);
+    padding: 3px;
+    border: black 2px solid;
+    color: white;
+}
+
+#the-volume {
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: blue;
+    color: var(--color-black);
+    padding: 3px;
+    border: black 2px solid;
+    color: white;
+}
+
+
+#btn-quote {
+    color: var(--color-black);
+    background-color: blue;
+    cursor: pointer;
+    border: 1.5px solid var(--color-info-light);
+    border: black 2px solid;
+    color: white;
+}

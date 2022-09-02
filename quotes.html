@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quantspeech</title>
+    <!--bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <!--bootstrap icon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Brand Logo and nav links-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="nav">
+        <div class="container">
+            <div class="d-flex">
+            <div class="brand-logo">
+                    <img src="nav-logo.png" alt="quantumdev Logo" id="nav-logo">
+                   <span id="logo-text">quant</span><span id="logo_text">speech</span>
+            </div>
+
+            <button id="nav-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon" id="toggle-icon"></span>
+            </button>
+            </div>
+                <!--nav links-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="quotes.html" target="_parent" class="nav-link">Quotes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="jokes.html" target="_parent" class="nav-link">Jokes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="section-two" class="mt-5">
+        <div class="container">
+            <div class="d-sm-flex" id="flex">
+                <div class="showcase mt-3">
+                    <p style="font-size: 2rem;">We are here to stay <i class="bi bi-emoji-smile-fill text-primary"></i></p>                  
+                  </div>
+<div class="quote-contained">
+                 <!--quote grnerator--> 
+    <div class="qgenerator">
+        <h3 class="heading">Quote Generator</h3>
+        <p class="the-text">Get quotes of your choice. We are now live to make you happy. </p>
+        <div class="container-quote">
+            <i class="bi bi-quote text-primary" id="icon1"></i> 
+            <span id="thequote" class="text-center"></span> <!--quotes-->
+            <i class="bi bi-quote text-primary" id="icon2"></i>
+        <!--Author-->
+        <div class="auth">
+            <span id="theauthor"></span> <!--author-->
+        </div>
+        </div> 
+    </div>
+    <div class="butns">
+        <div class="btn-links-icon">
+            <button id="the-copy" class="btn"><i class="bi bi-clipboard"></i></button> <!--copy icon-->
+               <button id="the-volume" class="btn"><i class="bi bi-volume-up"></i></button> <!--volume icon-->
+        </div>
+        <button id="btn-quote" class="btn btn-sm"><b>Get Quote</b></button>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section2" class="mt-5">
+        <div class="container">
+            <h2 class="question">Human Right Day Quotes</h2>
+
+            <!--ACCORDIAN FAQ-->
+            <div class="accordion accordion-flush mt-3 pt-1 pb-5" id="accordionFlush">
+                <!--item one-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne">
+                      Quote One
+                    </button>
+                  </h2>
+                  <div id="questionOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">The right of every man are diminished when the rights of one man are threatened <cite>~ John F. Kennedy</cite></div>
+                  </div>
+                </div>
+
+                <!--item two-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo">
+                      Quote Two
+                    </button>
+                  </h2>
+                  <div id="questionTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">Knowledge makes a man unfit to be a slave. <cite>~ Frederick Douglass</cite></div>
+                  </div>
+                </div>
+
+                <!--item three-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree">
+                      Quote Three
+                    </button>
+                  </h2>
+                  <div id="questionThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">A right delayed is a right denied. <cite>~ Martin Luther, Jr</cite></div>
+                  </div>
+                </div>
+
+                 <!--item four-->
+                 <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour">
+                      Quote Four
+                    </button>
+                  </h2>
+                  <div id="questionFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                    <div class="accordion-body">To deny people their human right is to challenge their very humanity. <cite>~ Nelson Mandela</cite></div>
+                  </div>
+                </div>
+
+                <!--item five-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionFive">
+                        Quote Five
+                      </button>
+                    </h2>
+                    <div id="questionFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                      <div class="accordion-body">Until justice rolls down like water and righteousness like a mighty stream. <cite>~ Martin Luther, Jr</cite></div>
+                    </div>
+                  </div>
+
+                  <!--item six-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionSix">
+                        Quote Six
+                      </button>
+                    </h2>
+                    <div id="questionSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlush">
+                      <div class="accordion-body">There may be times when we are powerless to present injustice, but there must never be a time when we fail to protest. <cite>~ Elie Wiesel</cite></div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+    <!--bootstrap js CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+    <script src="index.js"></script>
+</body>
+</html>
